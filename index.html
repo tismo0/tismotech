@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ayoub G alias tismo_tech | Creative Tech Builder</title>
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="nav-bar">
+        <div class="brand">
+          <a
+            class="brand-logo"
+            href="#hero"
+            aria-label="Retour à l'accueil"
+            data-i18n-attr="aria-label:brand.logoLabel"
+          >
+            <span>AG</span>
+          </a>
+          <div class="brand-copy">
+            <span data-i18n="brand.name">Ayoub G alias tismo_tech</span>
+            <span data-i18n="brand.tagline">Creative Tech Builder • Discord & Web Experiences</span>
+          </div>
+        </div>
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-controls="primary-navigation"
+          aria-expanded="false"
+          aria-label="Ouvrir le menu"
+          data-i18n-attr="aria-label:menu.open"
+        >
+          <i class="ri-menu-3-line" aria-hidden="true"></i>
+        </button>
+        <div class="nav-right" id="primary-navigation" data-visible="false">
+          <nav class="nav-links">
+            <ul>
+              <li><a href="#services" data-i18n="nav.services">Services</a></li>
+              <li><a href="#projects" data-i18n="nav.projects">Portfolio</a></li>
+              <li><a href="#process" data-i18n="nav.process">Process</a></li>
+              <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
+            </ul>
+          </nav>
+          <div class="nav-actions">
+            <div
+              class="lang-switch"
+              role="group"
+              aria-label="Choisir la langue"
+              data-i18n-attr="aria-label:lang.switchLabel"
+            >
+              <button type="button" class="active" data-lang="fr" aria-pressed="true">
+                <span aria-hidden="true">🇫🇷</span>
+                <span>FR</span>
+              </button>
+              <button type="button" data-lang="en" aria-pressed="false">
+                <span aria-hidden="true">🇬🇧</span>
+                <span>EN</span>
+              </button>
+            </div>
+            <a
+              class="cta primary"
+              href="https://www.fiverr.com/tismo_tech"
+              target="_blank"
+              rel="noopener"
+            >
+              <i class="ri-flashlight-fill" aria-hidden="true"></i>
+              <span data-i18n="nav.cta">Book on Fiverr</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="hero">
+        <div>
+          <span class="tag">
+            <i class="ri-rocket-line" aria-hidden="true"></i>
+            <span data-i18n="hero.tag">Tech freelance ultra moderne</span>
+          </span>
+          <h1>
+            <span data-i18n="hero.heading">Le choc des clients c'est de voir ces prix pour cette qualité.</span>
+            <br />
+            <span class="text-gradient" data-i18n="hero.highlight">Ayoub G (tismo_tech)</span>
+          </h1>
+          <p data-i18n="hero.description">
+            Je conçois des bots Discord sur mesure, des sites web responsives et des expériences interactives. Tu veux un portfolio avec un mini-jeu, un dashboard pour ton ASBL ou une automatisation intelligente? Je livre vite, fort, et à des tarifs imbattables.
+          </p>
+          <div class="hero-cta">
+            <a
+              class="cta primary"
+              href="https://www.fiverr.com/tismo_tech/"
+              target="_blank"
+              rel="noopener"
+            >
+              <i class="ri-rocket-fill" aria-hidden="true"></i>
+              <span data-i18n="hero.primaryCta">Lancer ton projet</span>
+            </a>
+            <a class="cta" href="#projects">
+              <i class="ri-play-circle-line" aria-hidden="true"></i>
+              <span data-i18n="hero.secondaryCta">Voir les projets</span>
+            </a>
+          </div>
+          <div class="hero-stats">
+            <div class="stat">
+              <strong>+25</strong>
+              <span data-i18n="stats.discord">Automations Discord réalisées (rôles, transcripts, scripts vocaux..)</span>
+            </div>
+            <div class="stat">
+              <strong>100%</strong>
+              <span data-i18n="stats.responsive">Sites responsive & pensés mobile + desktop</span>
+            </div>
+            <div class="stat">
+              <strong>72h</strong>
+              <span data-i18n="stats.express">Livraison express disponible pour choquer tes prospects</span>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="card card-large">
+            <h3 data-i18n="stack.title">Stack & super-pouvoirs</h3>
+            <p data-i18n="stack.description">
+              Spécialisé en HTML • CSS • JavaScript, gestion de serveurs & bases de données légères, intégrations API, mini-jeux web et bots Discord fiables.
+            </p>
+            <div class="skills">
+              <span class="chip" data-i18n="stack.skill.bot">Bot Discord</span>
+              <span class="chip" data-i18n="stack.skill.server">Serveur & Hosting</span>
+              <span class="chip" data-i18n="stack.skill.ui">UI futuriste</span>
+              <span class="chip" data-i18n="stack.skill.automation">Automations</span>
+              <span class="chip" data-i18n="stack.skill.portfolio">Portfolios gamifiés</span>
+              <span class="chip" data-i18n="stack.skill.transcripts">Systèmes de transcripts</span>
+            </div>
+            <p class="card-note" data-i18n="stack.note">
+              Je m'occupe du front, du back léger, des dashboards et de la maintenance quand il le faut.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="services">
+        <div class="section-title">
+          <h2 data-i18n="services.title">Services taillés pour dominer Fiverr</h2>
+          <p data-i18n="services.subtitle">
+            Des packs ultra-accessibles, pensés pour étonner tes clients avec un rendu premium.
+          </p>
+        </div>
+        <div class="grid grid-3">
+          <div class="card">
+            <i class="ri-bubble-chart-line"></i>
+            <h3 data-i18n="services.bot.title">Bots Discord surpuissants</h3>
+            <p data-i18n="services.bot.desc">
+              Gestion automatique des rôles, commandes custom, transcripts intelligents, logs propres et intégrations API. Optimisés pour tes serveurs communautaires ou pros.
+            </p>
+          </div>
+          <div class="card">
+            <i class="ri-global-line"></i>
+            <h3 data-i18n="services.web.title">Sites web & landing futuristes</h3>
+            <p data-i18n="services.web.desc">
+              Portfolios interactifs, vitrines pour ASBL, dashboards réactifs et mini-jeux intégrés. Responsive, rapides et faciles à maintenir.
+            </p>
+          </div>
+          <div class="card">
+            <i class="ri-lightbulb-flash-line"></i>
+            <h3 data-i18n="services.automation.title">Automations & maintenance</h3>
+            <p data-i18n="services.automation.desc">
+              Gestion serveur, bases de données légères, scripts vocaux, intégrations avec Google Sheets ou Notion pour piloter ton business sans douleur.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects">
+        <div class="section-title">
+          <h2 data-i18n="projects.title">Showcase • Projets qui claquent</h2>
+          <p data-i18n="projects.subtitle">
+            Ajoute ici tes captures et liens live pour montrer la puissance de tismo_tech. Chaque carte peut contenir une image, une description et les liens de démo/code.
+          </p>
+        </div>
+        <div class="projects-carousel">
+          <article class="card project-card">
+            <div class="project-media">
+              <button
+                type="button"
+                class="slider-btn prev"
+                aria-label="Image précédente"
+                data-i18n-attr="aria-label:projects.media.prev"
+              >
+                <i class="ri-arrow-left-s-line" aria-hidden="true"></i>
+              </button>
+              <div class="project-slider">
+                <div class="project-slide is-active">
+                  <img
+                    src="assets/asbl1.png"
+                    alt="Site moderne pour ASBL"
+                    data-i18n-attr="alt:projects.asbl.alt"
+                  />
+                </div>
+                <div class="project-slide">
+                  <img
+                    src="assets/asbl2.png"
+                    alt="Présentation visuelle d’une association"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </div>
+                <div class="project-slide">
+                  <img
+                    src="assets/asbl3.png"
+                    alt="Interface moderne pour collecter des dons"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </div>
+              </div>
+              <button
+                type="button"
+                class="slider-btn next"
+                aria-label="Image suivante"
+                data-i18n-attr="aria-label:projects.media.next"
+              >
+                <i class="ri-arrow-right-s-line" aria-hidden="true"></i>
+              </button>
+            </div>
+            <h3 data-i18n="projects.asbl.title">ASBL Impact • Plateforme moderne</h3>
+            <p data-i18n="projects.asbl.desc">
+              Site sérieux, clair et animé pour présenter les missions, collecter des dons et gérer les newsletters en un clin d'œil.
+            </p>
+            <div class="project-links">
+              <a href="https://ccbl.vercel.app" target="_blank" rel="noopener">
+                <i class="ri-external-link-line"></i>
+                <span data-i18n="projects.asbl.visit">Visiter</span>
+              </a>
+            </div>
+          </article>
+
+          <article class="card project-card">
+            <div class="project-media">
+              <button
+                type="button"
+                class="slider-btn prev"
+                aria-label="Image précédente"
+                data-i18n-attr="aria-label:projects.media.prev"
+              >
+                <i class="ri-arrow-left-s-line" aria-hidden="true"></i>
+              </button>
+              <div class="project-slider">
+                <div class="project-slide is-active">
+                  <img
+                    src="assets/dino1.png"
+                    alt="Jeu web responsive"
+                    data-i18n-attr="alt:projects.arcade.alt"
+                  />
+                </div>
+                <div class="project-slide">
+                  <img
+                    src="assets/dino2.png"
+                    alt="Interface d’un mini-jeu sur écran"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </div>
+                <div class="project-slide">
+                  <img
+                    src="assets/dino3.png"
+                    alt="Joueur interagissant avec un jeu web"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </div>
+              </div>
+              <button
+                type="button"
+                class="slider-btn next"
+                aria-label="Image suivante"
+                data-i18n-attr="aria-label:projects.media.next"
+              >
+                <i class="ri-arrow-right-s-line" aria-hidden="true"></i>
+              </button>
+            </div>
+            <h3 data-i18n="projects.arcade.title">Arcade Web • Jeu responsive</h3>
+            <p data-i18n="projects.arcade.desc">
+              Mini-jeu jouable sur PC & mobile, scores en temps réel, animations fluides. Parfait pour attirer et retenir l'attention.
+            </p>
+            <div class="project-links">
+              <a href="https://ayoubrun.vercel.app/" target="_blank" rel="noopener">
+                <i class="ri-external-link-line"></i>
+                <span data-i18n="projects.arcade.play">Jouer</span>
+              </a>
+              <a href="https://github.com/tismo0/ayoubrun" target="_blank" rel="noopener">
+                <i class="ri-github-line"></i>
+                <span data-i18n="projects.arcade.repo">Repo</span>
+              </a>
+            </div>
+          </article>
+
+          <article class="card project-card">
+            <div class="project-media">
+              <button
+                type="button"
+                class="slider-btn prev"
+                aria-label="Image précédente"
+                data-i18n-attr="aria-label:projects.media.prev"
+              >
+                <i class="ri-arrow-left-s-line" aria-hidden="true"></i>
+              </button>
+              <div class="project-slider">
+                <div class="project-slide is-active">
+                  <img
+                    src="assets/dc1.png"
+                    alt="Bot Discord automation"
+                    data-i18n-attr="alt:projects.discord.alt"
+                  />
+                </div>
+                <div class="project-slide">
+                  <img
+                    src="assets/dc2.png"
+                    alt="Interface de commandes pour bot Discord"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </div>
+                <div class="project-slide">
+                  <img
+                    src="assets/dc3.png"
+                    alt="Collaboration autour d’un serveur Discord"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </div>
+                <div class="project-slide">
+                  <img
+                    src="assets/dc4.png"
+                    alt="Collaboration autour d’un serveur Discord"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </div>
+              </div>
+              <button
+                type="button"
+                class="slider-btn next"
+                aria-label="Image suivante"
+                data-i18n-attr="aria-label:projects.media.next"
+              >
+                <i class="ri-arrow-right-s-line" aria-hidden="true"></i>
+              </button>
+            </div>
+            <h3 data-i18n="projects.discord.title">Bot Discord • Roles & Transcripts</h3>
+            <p data-i18n="projects.discord.desc">
+              Automatisation des rôles selon la vocale, transcripts auto avec interface de recherche, commandes admin custom.
+            </p>
+            <div class="project-links">
+              <a href="https://discord.gg/7vVVqdkVWg" target="_blank" rel="noopener">
+                <i class="ri-external-link-line"></i>
+                <span data-i18n="projects.discord.demo">Demo</span>
+              </a>
+              <a href="https://github.com/tismo0/botcvc" target="_blank" rel="noopener">
+                <i class="ri-github-line"></i>
+                <span data-i18n="projects.discord.scripts">Scripts</span>
+              </a>
+            </div>
+          </article>
+
+        </div>
+      </section>
+
+      <section id="process">
+        <div class="section-title">
+          <h2 data-i18n="process.title">Mon process pour choquer tes clients</h2>
+          <p data-i18n="process.subtitle">
+            Collaboration limpide, communication agressive et livrables premium qui dépassent les attentes.
+          </p>
+        </div>
+        <div class="grid grid-3 process">
+          <div class="card process-step">
+            <h3 data-i18n="process.step1.title">Brief express & moodboard</h3>
+            <p data-i18n="process.step1.desc">
+              On analyse ton besoin, ta communauté et le rendu qui fera dire « wow ». Je te propose des idées visuelles directement.
+            </p>
+          </div>
+          <div class="card process-step">
+            <h3 data-i18n="process.step2.title">Prototype interactif</h3>
+            <p data-i18n="process.step2.desc">
+              Je pose les bases en HTML/CSS/JS, avec animations et intégrations API. Tu valides sur desktop et mobile avant la finalisation.
+            </p>
+          </div>
+          <div class="card process-step">
+            <h3 data-i18n="process.step3.title">Livraison & boost</h3>
+            <p data-i18n="process.step3.desc">
+              Mise en ligne, setup serveur, base de données légère, documentation vidéo + options de maintenance pour rester au top.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact">
+        <div class="section-title">
+          <h2 data-i18n="contact.title">Prêt à lancer un projet ?</h2>
+          <p data-i18n="contact.subtitle">
+            Slack-moi et on choquera Fiverr avec ton idée. Tu peux aussi book directement ta commande.
+          </p>
+        </div>
+        <div class="card card-contact">
+          <div>
+            <h3 data-i18n="contact.direct">Contact direct</h3>
+            <p class="text-muted" data-i18n-html="contact.discord">
+              Discord&nbsp;: <strong>Rejoins le serveur, ouvre un ticket et contacte Ayoub/tismo</strong><br />
+              Instagram&nbsp;: <strong>@tismo_tech</strong>
+            </p>
+            <div class="socials">
+              <a href="https://discord.gg/7vVVqdkVWg" target="_blank" rel="noopener">
+                <i class="ri-discord-fill"></i>
+                <span data-i18n="contact.discordLink">Rejoins le Discord</span>
+              </a>
+              <a href="https://instagram.com/ayoubsyfd" target="_blank" rel="noopener">
+                <i class="ri-instagram-line"></i>
+                <span data-i18n="contact.instagramLink">Instagram</span>
+              </a>
+              <a href="https://www.fiverr.com/tismo_tech" target="_blank" rel="noopener">
+                <i class="ri-flashlight-line"></i>
+                <span data-i18n="contact.fiverrLink">Offre Fiverr</span>
+              </a>
+            </div>
+          </div>
+          <div>
+            <h3 data-i18n="contact.options.title">Options populaires</h3>
+            <ul class="options-list">
+              <li data-i18n="contact.options.bot">Bot Discord complet avec rôles automatiques et transcripts</li>
+              <li data-i18n="contact.options.site">Site vitrine + dashboard d'administration en 7 jours</li>
+              <li data-i18n="contact.options.portfolio">Portfolio premium avec mini-jeu intégré</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p data-i18n-html="footer.copy">
+        © <span data-year></span> Ayoub G alias tismo_tech • Construisons des expériences digitales qui marquent.
+      </p>
+    </footer>
+
+    <button
+      type="button"
+      class="scroll-top"
+      aria-label="Retour en haut"
+      data-i18n-attr="aria-label:scrollTop.label"
+    >
+      <i class="ri-arrow-up-line" aria-hidden="true"></i>
+    </button>
+
+    <script src="main.js" defer></script>
+  </body>
+</html>
